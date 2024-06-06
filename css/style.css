@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+/* global css */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    /* float: left; */
+    padding: rem;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+/* global css end here */
+
+
+/* header section css start */
+.header-section{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+}
+.logo{
+    padding: 15px 10px;
+}
+.nav ul li{
+    text-decoration: none;
+
+}
+.nav{
+    padding: 24px 0px;
+    float: right;
+}
+.nav ul li{
+    margin: 0 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.nav ul li a{
+    transition: 1s;
+}
+
+.nav ul li a:hover{
+    color: #f6f9f9;
+    background: #2d3950;
+}
+/* head section, nav er kaj ses */
+
+/* banner secton css start here */
+.banner-section{
+    width: 100%;
+    float: left;
+    background: url('../img/Banner.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 70px 0px 40px;
+}
+.banner-inner{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    text-align: center;
+}
+.banner-inner h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+.banner-inner p{
+    font-size: 15px;
+    margin: 15px 0px;
+    font-weight: 400;
+    color: white;
+}
+.banner-inner .btn-info{
+    border: 1px  solid #15a4fa;
+    border-radius: 2px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    transition: 1s;
+    color: white;
+}
+.icon{
+    margin-top: 175px;
+}
+.banner-inner .btn-info:hover{
+    border: 1px solid#15a4fa;
+    color: white;
+    background: #15a4fa;
+
+}
+.simple{
+    text-align: center;
+    font-size: 20px;
+    color: #2d3950;
+    /* margin-top: 80px; */
+    padding: 40px 0;
+}
+.simp{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 10px;
+    padding: 5px;
+    color: #999999;
+}
+.table{
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    /* margin-top: 150px; */
+}
+.abc{
+    width: 80%;
+    align-items: center;
+    padding: 0 9rem;
+}
+.form_bg{
+    background: url('../img/Stay.png'); 
+    padding: 3rem 0;
+
+}
+form{
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    text-align: left;
+    border-radius: 1px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #999999;
+    height: 60px;
+    width: 553px;
+}
+.cw{
+    font-size: 41pt;
+}
+.stu{
+    color: white;
+    font-size: 41pt;
+}
+.weq{
+    color: #999999;
+    font-size: 15pt;
+}
+input.checkbox {
+    width: 16px;
+    height: 15px;
+}
+
+.fa-angle-down{
+    color: white;
+    font-size: 40px;
+}
+
+/* bottom foooter start */
+.bottom-footer{
+    background-color: white;
+    padding: 2rem 0;
+    /* height: 90px; */
+}
+
+.fa-brands{
+    background-color: #15a4fa;
+    padding: 6px 10px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cb_bt{
+    margin: 0 0 0 406px;
+}
+.button{
+    margin: 0 408px 0 0;
+    padding: 0;
+    width: 135px;
+    height: 40px;
+}
+th, td {
+    padding: 15px;
+}
+.abcd{
+    margin-top: 64px;
+}
+.simp{
+    margin-top: 25px;
+}
+.p{
+    font-size: 15pt;
+}
+.showcase{
+    /* margin-top: 340px; */
+   
+    display: flex;
+    justify-content: center;
+}
+.s_margin{
+    margin-top: 80px;
+}
+.chobi_padding{
+    padding: 3rem 0;
+
+}
+.send{
+    background: transparent;
+    border-color: #15a4fa;
+    color: white;
+}
+.send:hover{
+    border: 0px solid rgb(64, 70, 121);
+    color: rgb(239, 239, 239);
+    background: #f6f9f9
+
+}
+
+
+/* .gallary-section {
+} */
+
+.about-section{
+    padding: 33px 0;
+    background-color: #f6f9f9;
+}
+
+.gallary-section {
+    padding: 8rem 0;
+    background-color: #f6f9f9;
+}
